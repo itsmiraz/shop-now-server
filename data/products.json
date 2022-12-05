@@ -1,0 +1,290 @@
+[
+    {
+        "category_id": "01",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 48,
+        "title": "Headphone Supersonic Pew Adi -25",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/3.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "01",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 48,
+        "title": "Aspire Dron Model",
+        "quantity": 0,
+        "image_url": "https://preview.hasthemes.com/ponno/img/products/p6.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "01",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 48,
+        "title": "Bluetooth Speaker New Without Cable",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/details/4.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "01",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 48,
+        "title": "Ponno Dia Remote",
+        "quantity": 0,
+        "image_url": "https://preview.hasthemes.com/ponno/img/products/p4.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "02",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Game Triger Finger New Insulated PH-X",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/1.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "02",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Olian Selfie Cam",
+        "quantity": 0,
+        "image_url": "https://preview.hasthemes.com/ponno/img/products/p3.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "02",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Game Triger Finger New Insulated PH-X",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/5.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "03",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Android Television Super New DGT -256",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/6.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "03",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Headphone Supersonic Pew Adi -25",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/7.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "03",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Bluetooth Speaker New Without Cable",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/7.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "03",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Game Triger Finger New Insulated PH-X",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/14.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "04",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Cannon 1Dx mark |||",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/15.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "04",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Mizuna 8 Pro Android Smartphone",
+        "quantity": 0,
+        "image_url": "https://fullkit.moxcreative.com/electrodeals/wp-content/uploads/sites/8/2022/06/4-300x300.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "04",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Mizuna 7 Max Android Smartphone",
+        "quantity": 0,
+        "image_url": "https://fullkit.moxcreative.com/electrodeals/wp-content/uploads/sites/8/2022/06/3-300x300.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "04",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "PO V40 THINQ",
+        "quantity": 0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0104/6917/9492/products/p4_fefecd2a-a722-4743-bee8-e3cb3b3575ba.jpg?v=1560496359",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "04",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "SPOTS Y93 1815",
+        "quantity": 0,
+        "image_url": "https://cdn.shopify.com/s/files/1/0104/6917/9492/products/p6_6b7de771-84d6-46c8-b6df-e5dc70fc3757.jpg?v=1560496097",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "05",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Game Triger Finger New Insulated PH-X",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/10.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "05",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Android Television Super New DGT -256",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/11.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "05",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Banna Watch Series 3 GPS – 42mm – Sport Band",
+        "quantity": 0,
+        "image_url": "https://fullkit.moxcreative.com/clicknbuy/wp-content/uploads/sites/16/2022/09/8.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "05",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Game Triger Finger New Insulated PH-X",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/9.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "06",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Android Television Super New DGT -256",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/2.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "06",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Android Television Super New DGT -256",
+        "quantity": 0,
+        "image_url": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/2.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "06",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Makko SmartTV 75 inc Class 4K Ultra HD",
+        "quantity": 0,
+        "image_url": "https://fullkit.moxcreative.com/clicknbuy/wp-content/uploads/sites/16/2022/09/6-600x600.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    },
+    {
+        "category_id": "06",
+        "rating": {
+            "number": 4.5,
+            "badge": "Excellent"
+        },
+        "price": 100,
+        "title": "Moza Gaming Monitor 32″ FHD",
+        "quantity": 0,
+        "image_url": "https://fullkit.moxcreative.com/clicknbuy/wp-content/uploads/sites/16/2022/09/11-300x300.jpg",
+        "details": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimo veniam, quis nostrud exercitation ullamco laboris nisi."
+    }
+]

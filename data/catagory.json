@@ -1,0 +1,39 @@
+[
+   
+    {
+        "id": "00",
+        "img": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/category/6.png",
+        "name": "All Products"
+    },
+    {
+        "id": "01",
+        "img": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/category/3.png",
+        "name": "HeadPhone"
+    },
+    {
+        "id": "02",
+        "img": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/category/2.png",
+        "name": "VideoGame"
+    },
+    {
+        "id": "03",
+        "img": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/category/1.png",
+        "name": "Portable Speaker"
+    },
+    {
+        "id": "04",
+        "img": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/p1.jpg",
+        "name": "SmartPhones"
+    },
+    {
+        "id": "05",
+        "img": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/p1.jpg",
+        "name": "Gadgets"
+    },
+    {
+        "id": "06",
+        "img": "https://htmldemo.net/elehaus/elehaus/assets/images/shop/category/6.png",
+        "name": "Computer/Laptop"
+    }
+    
+]
