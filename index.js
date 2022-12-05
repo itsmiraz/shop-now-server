@@ -266,6 +266,36 @@ async function run() {
         })
 
 
+        // -------------- Admin Api -------------
+
+        app.put('/makeadmin', async (req, res) => {
+            const email = req.query.email;
+            const filter = { email: email }
+            const option = { upsert: true }
+            const updateDoc = {
+                $set: {
+                    role:'admin'
+                }
+            }
+            const result = await usersCollection.updateOne(filter, updateDoc, option);
+            res.send(result)
+            
+        })
+
+        app.put('/makemod', async (req, res) => {
+            const email = req.query.email;
+            const filter = { email: email }
+            const option = { upsert: true }
+            const updateDoc = {
+                $set: {
+                    role:'mod'
+                }
+            }
+            const result = await usersCollection.updateOne(filter, updateDoc, option);
+            res.send(result)
+            
+        })
+
 
     }
     finally {
