@@ -25,6 +25,7 @@ async function run() {
         const orderCollection = client.db('ShopNowOrders').collection('orders')
         const usersCollection = client.db('ShopNowOrders').collection('users')
         const PaymentCollection = client.db('ShopNowOrders').collection('payments')
+        const MessageSCollection = client.db('ShopNowOrders').collection('message')
 
 
         // save use to db
@@ -81,7 +82,13 @@ async function run() {
             const result = await usersCollection.find(query).toArray()
             res.send(result)
         })
-
+        // Check Admin
+        app.get("/user/admin/:email", async (req, res) => {
+            const email = req.params.email;
+            const query = { email: email };
+            const user = await usersCollection.findOne(query);
+            res.send({ isAdmin: user.role === 'admin' });
+        });
 
 
         //loding catagory
@@ -101,9 +108,9 @@ async function run() {
             }
             else {
                 query = {
-                            category_id:id
-                        }
-                
+                    category_id: id
+                }
+
             }
             const cursor = productsCollection.find(query).sort({ _id: -1 })
             const result = await cursor.toArray()
@@ -114,24 +121,24 @@ async function run() {
             const body = req.body;
             const result = await productsCollection.insertOne(body)
             res.send(result)
-            
-       })
+
+        })
 
         // loading all products
         app.get('/products/:id', async (req, res) => {
             const page = req.query.page
             const size = parseInt(req.query.size)
             const id = req.params.id
-           
+
             let query = {}
             if (id === '08') {
                 query = {}
             }
             else {
                 query = {
-                            category_id:id
-                        }
-                
+                    category_id: id
+                }
+
             }
             const cursor = productsCollection.find(query)
             const products = await cursor.skip(page * size).limit(size).toArray()
@@ -148,7 +155,7 @@ async function run() {
             res.send(result)
         })
 
-      
+
 
 
 
@@ -174,7 +181,7 @@ async function run() {
         })
 
 
-      
+
 
         app.delete('/order/:id', async (req, res) => {
             const id = req.params.id;
@@ -196,24 +203,24 @@ async function run() {
             // console.log('api hit',req.headers)
             const price = order.grandTotal;
             const amount = price * 100;
-      
+
             const paymentIntent = await stripe.paymentIntents.create({
-              currency: "usd",
-              amount: amount,
-      
-              "payment_method_types": ["card"],
+                currency: "usd",
+                amount: amount,
+
+                "payment_method_types": ["card"],
             });
             res.send({
-              clientSecret: paymentIntent.client_secret,
+                clientSecret: paymentIntent.client_secret,
             });
-          });
+        });
 
         // payment 
         app.post('/payments', async (req, res) => {
             const body = req.body;
             const result = await PaymentCollection.insertOne(body)
             res.send(result)
-        
+
         })
 
 
@@ -221,7 +228,7 @@ async function run() {
         //     const query = {}
         //     const result = await PaymentCollection.deleteMany(query)
         //     res.send(result)
-        
+
         // })
 
         app.get('/delivery', async (req, res) => {
@@ -236,11 +243,11 @@ async function run() {
         app.put('/payments/:id', async (req, res) => {
             const id = req.params.id
             const filter = {
-                _id:ObjectId(id)
+                _id: ObjectId(id)
             }
             // const order = await PaymentCollection.findOne(query)
-            
-            
+
+
             // const ordersid = order.orders.map(order => {
             //    order._id
             // })
@@ -249,22 +256,22 @@ async function run() {
             // }
             // const deleteOrder = await orderCollection.deleteMany(deleteQuery)
             // console.log(ordersid)
-           
-            
+
+
             const option = { upsert: true }
             const updateDoc = {
                 $set: {
-                    paid:'true'
+                    paid: 'true'
                 }
             }
 
-            const result = await PaymentCollection.updateOne(filter,updateDoc,option);
+            const result = await PaymentCollection.updateOne(filter, updateDoc, option);
             res.send(result)
         })
-        app.get('/payments/:id',async(req,res)=>{
+        app.get('/payments/:id', async (req, res) => {
             const id = req.params.id;
             const query = {
-                _id:ObjectId(id)
+                _id: ObjectId(id)
             }
             const result = await PaymentCollection.findOne(query);
             res.send(result)
@@ -279,12 +286,12 @@ async function run() {
             const option = { upsert: true }
             const updateDoc = {
                 $set: {
-                    role:'admin'
+                    role: 'admin'
                 }
             }
             const result = await usersCollection.updateOne(filter, updateDoc, option);
             res.send(result)
-            
+
         })
 
         app.put('/makemod', async (req, res) => {
@@ -293,12 +300,25 @@ async function run() {
             const option = { upsert: true }
             const updateDoc = {
                 $set: {
-                    role:'mod'
+                    role: 'mod'
                 }
             }
             const result = await usersCollection.updateOne(filter, updateDoc, option);
             res.send(result)
-            
+
+        })
+
+
+        app.post('/message', async (req, res) => {
+            const body = req.body;
+            const result = await MessageSCollection.insertOne(body);
+            res.send(result)
+        })
+
+        app.get('/message', async (req, res) => {
+            const query = {}
+            const result = await MessageSCollection.find(query).sort({ _id: -1 }).toArray()
+            res.send(result)
         })
 
 
