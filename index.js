@@ -105,12 +105,17 @@ async function run() {
                         }
                 
             }
-            const cursor = productsCollection.find(query)
+            const cursor = productsCollection.find(query).sort({ _id: -1 })
             const result = await cursor.toArray()
             res.send(result)
         })
 
-       
+        app.post('/addproduct', async (req, res) => {
+            const body = req.body;
+            const result = await productsCollection.insertOne(body)
+            res.send(result)
+            
+       })
 
         // loading all products
         app.get('/products/:id', async (req, res) => {
